@@ -1,0 +1,5 @@
+lesson_2_reflections:
+
+What happens when you initialize a repository? Why do you need to do it?
+It creates the repository and starts the tracking of your file commits.  You need it so that any changes you make and commit will begin to be tracked.
+
