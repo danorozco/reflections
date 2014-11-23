@@ -5,3 +5,20 @@ It creates the repository and starts the tracking of your file commits.  You nee
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It acts as the midpoint and allows you determine which files you will be committing.  It allows you to only included the file you want without having to commit all the files.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Move your file to staging area after your logical change and then commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to make some experimental changes but not modifying the main program.  If you are creating different mode, different language.
+
+How do the diagrams help you visualize the branch structure?
+It helps understand at what commit do my branches branch off and what commits are not reachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Created 1 master branch that includes the changes from both branches.  Because the last 2 commits from both branches merge into 1 new commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Faster, Easer, less chance of error
+Con:  Might include code that you may not want, manual conflict resolution
+
